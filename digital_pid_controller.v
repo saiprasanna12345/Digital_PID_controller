@@ -176,8 +176,6 @@ assign N_der_tempq = K_d*N_der_temp1;		//Q2.30 error
     begin
   
       N_con = N_prop_temp + N_int_temp + N_der_temp ;
-      //N_con = (N_con_temp >> 2);
-      //N_er <= N_ref - N_dummy;
       
     end
 
